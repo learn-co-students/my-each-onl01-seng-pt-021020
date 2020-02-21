@@ -1,5 +1,6 @@
 def my_each(file)
-  new_arr = []
+  new_arr = [i]
+  while 
   
   
 end
