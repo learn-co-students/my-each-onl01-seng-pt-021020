@@ -1,4 +1,5 @@
 def my_each(file)
-  file 
+  new_arr = []
+  
   
 end
