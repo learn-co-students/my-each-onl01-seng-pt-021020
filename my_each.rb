@@ -1,13 +1,10 @@
-def my_each(file)
-  new_arr = []
+def my_each(array)
   i = 0
-  
   while i < array.length
-  yield([i])
-  i = i + 1
-end
-new_arr
-  
+    yield(array[i])
+    i += 1
+  end
+  array
 end
 
   
